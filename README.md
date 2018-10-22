@@ -6,9 +6,11 @@ Python 2.6 or above
 Python 3 currently not supported
 
 Commands
+
 Install ansible
 sudo yum install -y ansible
 
 List hosts
+
 ansible -i inventory --list-hosts
 
