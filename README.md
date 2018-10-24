@@ -14,3 +14,6 @@ List hosts
 
 ansible -i inventory --list-hosts
 
+## Configure VI editor to handle yaml files
+autocmd FileType yaml setlocal ai ts=2 sw=2 et
+
